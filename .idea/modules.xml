@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/opencv-live-video-stream-over-http-master.iml" filepath="$PROJECT_DIR$/opencv-live-video-stream-over-http-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/camera-client-smart-spaces.iml" filepath="$PROJECT_DIR$/camera-client-smart-spaces.iml" />
     </modules>
   </component>
 </project>
