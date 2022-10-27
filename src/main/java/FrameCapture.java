@@ -71,6 +71,7 @@ public class FrameCapture implements Runnable{
                     } else {
                         notificationSent = true;
                         new Thread(new Notification(Main.CLIENT, "ATTENTION!", "ACTIVITY ALERT")).start();
+                        System.out.println("Activity noticed");
                         new java.util.Timer().schedule(
                                 new java.util.TimerTask(){
                                     @Override

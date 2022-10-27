@@ -105,6 +105,7 @@ public class VideoStreamServer implements Runnable {
             outputStream.flush();
         } catch (Exception e) {
             watchingStream = false;
+            System.out.println("Waiting for client");
             socket = serverSocket.accept();
             System.out.println("Client connected for Video Stream");
             watchingStream = true;
