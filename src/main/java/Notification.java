@@ -10,7 +10,7 @@ import java.nio.charset.StandardCharsets;
 
 public class Notification implements Runnable{
     private static String BASE_URL = "https://fcm.googleapis.com/fcm/send";
-    private static String SERVER_KEY = "AAAALVFAF2M:APA91bEN_sisghWAKh-bPtNVNdc1kmBj9JdHwOQmFEh0pzizRwUCsp-PrAZmefCYdS-hnuZNRklGfQERCB9WtkJ8oVhPKUQkp5YVvhkLJ5vGA9aH192xNRFrBRp5PNmTjZmB3JrTyKYe";
+    private static String SERVER_KEY = "YOUR_SERVER_KEY_HERE_TO_SEND_NOTIFICATIONS"; //you can find instructions of it via google
     private static HttpURLConnection con;
 
     private String client;

@@ -14,9 +14,6 @@ import java.net.Socket;
 
 public class VideoStreamServer implements Runnable {
 
-
-
-
     public boolean watchingStream = false;
     private BufferedImage img;
     ByteArrayOutputStream baos;

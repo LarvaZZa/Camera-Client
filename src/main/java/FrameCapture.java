@@ -19,7 +19,6 @@ public class FrameCapture implements Runnable{
     private static VideoStreamServer videoStreamService;
     static VideoCapture videoCapture;
     static Timer tmrVideoProcess;
-    static Timer tmrNotificationSent;
     private Mat currentFrame = new Mat();
     private Mat lastFrame = new Mat();
     private Mat frame = new Mat();
